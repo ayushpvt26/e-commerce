@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.categories {
+  border: 0px SOLID RED;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  height: auto;
+}
+.categories div {
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.categories div {
+  padding: 10px 30px;
+}
+.categories div a {
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+.categories img {
+  height: 150px;
+}
+.online-collection {
+  border: 0px solid red;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+
+  justify-content: center;
+  justify-items: center;
+  padding: 10px 8px;
+
+  gap: 10px;
+}
+
+.offers {
+  margin: 0px 0px;
+  cursor: pointer;
+  border: 0px solid red;
+  transition: transform 0.3s ease-in-out;
+}
+.offers:hover {
+  transform: scale(0.99);
+}
+.offers img {
+  width: 600px;
+  border-radius: 20px;
+}
+
+.newarrival-grid {
+  display: grid;
+  padding: 30px;
+  border: 0px solid red;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto;
+  gap: 20px; /* Adjust the gap between sections */
+}
+
+.newarrival-main-section {
+  text-align: center;
+  grid-column: 1 / 2; /* Span the entire width */
+  background-color: #f0f0f0; /* Background color */
+  padding: 20px; /* Padding */
+}
+
+.newarrival-sub-sections {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between sub-sections */
+}
+
+.newarrival-sub-section {
+  text-align: justify;
+  width: 27%;
+  /* Adjust the width of each sub-section */
+  background-color: #fff;
+  border: 0px solid black; /* Background color */
+  padding: 0px; /* Padding */
+  margin: 0px;
+}
+.newarrival-sub-section img {
+  width: 310px;
+}
+
+.online-collection-heading img {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.online-collection-heading {
+  text-align: center;
+  width: 100%;
+}
+
+.online-collection-heading H1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+.applink {
+  display: flex;
+  border: 0px solid red;
+  background-color: #e4db6d;
+  text-align: center;
+  justify-content: center;
+}
+
+.applink-image {
+  text-align: center;
+  width: auto;
+  overflow: hidden;
+  padding: 20px 20px;
+  border: 0px solid blue;
+}
+.applink-image img {
+  width: 160px;
+}
+.applink-text {
+  width: 58%;
+}
