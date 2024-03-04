@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.products{
+    border:0px solid red;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  
+
+}
+
+.products img{
+    cursor: pointer;
+    border:0px solid red;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+   margin: 20px 20px;
+   border-radius: 0px;
+   width: 300px;
+   height:400px;
+
+}
