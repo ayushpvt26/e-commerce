@@ -1,0 +1,13 @@
+ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul{
+    align-items: left;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+}
