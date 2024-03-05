@@ -3,13 +3,11 @@ import "./ImageGrid.css";
 import image2 from "../images/images (2).jpg";
 import image3 from "../images/images (3).jpg";
 import image4 from "../images/images (4).jpg";
-import Header from "./Header/Header";
 import { NavLink } from "react-router-dom";
 
 const Main = () => {
   return (
     <>
-      <Header />
       <div className="products">
         <div>
           <NavLink className="nav-link" to="/Home">

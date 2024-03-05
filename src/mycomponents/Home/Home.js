@@ -1,13 +1,11 @@
 import React from "react";
 import "./home.css";
-import Header from "../Header/Header";
 import { Link } from "react-router-dom";
 import Imageslider from "../Imageslider";
 
 const Home = () => {
   return (
     <>
-      <Header />
       <Imageslider />
 
       <div className="categories">
@@ -50,7 +48,7 @@ const Home = () => {
       <br></br>
       <div className="applink">
         <div className="applink-text">
-          <h1> ALLON SOLLY IS NOW AVILABLE ON AN APP!!</h1>
+          <h1> ALLeN SOLLY IS NOW AVILABLE ON AN APP!!</h1>
         </div>
         <div className="applink-image">
           <img src={require("../../images/QRimage.png")} alt="off" />
